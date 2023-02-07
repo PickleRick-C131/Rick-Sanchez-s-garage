@@ -1,0 +1,16 @@
+h3{color:bisque}
+h3{text-align: center;}
+h3{font-family: Arial, Helvetica, sans-serif;}
+body{font-family: monospace;}
+body{text-align: justify;}
+h4{text-align: center;}
+H4{font-family: Arial, Helvetica, sans-serif;}
+h4{color:bisque;}
+body{margin-left: 600px;
+    margin-right: 600px;}
+body{background-image: url(prince.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+body{color:blueviolet;}
+h3{margin-top: 200px;}
+body{margin-bottom: 100px;}
