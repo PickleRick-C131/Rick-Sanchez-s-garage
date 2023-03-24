@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+}
+
+
+
+.Left{
+    width: 600px;
+    height: auto;
+    margin-right: 20px;
+}
+.Right{
+    width: 600px;;
+    height: auto;
+    margin-left: 20px;
+}
+
+div{
+    display: block;
+}
+
+
+
+h3{color:bisque}
+h3{text-align: center;}
+h3{font-family: Arial, Helvetica, sans-serif;}
+body{font-family: monospace;
+border: 5px;
+}
+body{text-align: justify;}
+h4{text-align: center;}
+H4{font-family: Arial, Helvetica, sans-serif;}
+h4{color:bisque;}
+body{margin-left: 400px;
+    margin-right: 400px;}
+body{color:black;}
+h3{margin-top: 200px;}
+body{margin-bottom: 100px;}
+
+.pullquote{font-family: Georgia, 'Times New Roman', Times, serif;
+color: bisque;
+line-height: 32px;
+font-style: italic;}
