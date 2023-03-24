@@ -1,5 +1,8 @@
 
 
+body{
+    height: fit-content;
+}
 
 .container{
     display: flex;
@@ -13,7 +16,7 @@
     margin: 20px;
     padding: 20px;
     width: 200px;
-    height: 600px;
+    
 }
 
 .h2 { 
