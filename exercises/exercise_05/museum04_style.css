@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+}
+
+
+
+.Left{
+    width: 800px;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 30px gray;
+    padding: 30px;
+    background-color: rgb(240, 239, 239);
+}
+.Right{
+    width: 800px;;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 10px 5px 30px gray;
+    padding: 30px;
+    background-color: rgb(240, 239, 239);
+}
+
+div{
+    display: block;
+}
+
+
+
+h3{color: chocolate;}
+h3{text-align: center;}
+h3{font-family: Arial, Helvetica, sans-serif;}
+body{font-family: monospace;
+border: 5px;
+}
+body{text-align: justify;}
+h4{text-align: center;}
+H4{font-family: Arial, Helvetica, sans-serif;}
+h4{color:chocolate;}
+body{margin-left: 200px;
+    margin-right: 200px;}
+body{color:black;}
+h3{margin-top: 30px;}
+body{margin-bottom: 100px;}
+
+.pullquote{font-family: Georgia, 'Times New Roman', Times, serif;
+color: bisque;
+line-height: 32px;
+font-style: italic;}
