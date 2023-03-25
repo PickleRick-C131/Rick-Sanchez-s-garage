@@ -4,8 +4,24 @@ body{
 }
 
 .container{
+    font-family: monospace;
     display: flex;
+    color: white;
+    text-decoration: none;
 }
+
+/*a*/
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    font-size: 30px;
+}
+/*a*/
+
 
 body{
     background-color: black;
@@ -23,4 +39,46 @@ body{
     margin: 10px;
     padding: 10px;
     font-family: monospace;
+}
+
+.navigation{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+}
+
+/*ins*/
+ #INS{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ #INS:hover{
+    font-size: 30px;
+ }
+/*in*/
+
+
+
+/*Paper Money*/
+#Paper_Money{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#Paper_Money:hover{
+    font-size: 30px;
+}
+/*Paper Money*/
+
+
+/*Coins*/
+#Coins{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Coins:hover{
+    font-size: 30px;
 }
