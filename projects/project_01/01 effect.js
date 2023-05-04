@@ -1,3 +1,9 @@
+const container = document.querySelector('.images');
+const images = container.querySelectorAll('img');
+
+
+
+
 images.forEach((img) => {
     // 随机计算出left和top值
     const left = Math.floor(Math.random() * container.offsetWidth);
