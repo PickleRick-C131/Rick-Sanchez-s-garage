@@ -18,6 +18,7 @@ body{
 }
 
 
+
 /*a*/
 a{
     color: white;
@@ -25,9 +26,6 @@ a{
     font-size: 20px;
 }
 
-a:hover{
-    font-size: 30px;
-}
 /*a*/
 
 
@@ -51,9 +49,6 @@ a:hover{
     #INS{
        margin-left: 20px;
 
-    }
-    #INS:hover{
-       font-size: 30px;
     }
    /*in*/
 
