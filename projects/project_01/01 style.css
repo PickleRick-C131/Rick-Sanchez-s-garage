@@ -17,10 +17,6 @@ body{
     background-color:black;
 }
 
-#images{
-    width: 100px;
-    height:auto;
-}
 .title{
     color: white;
     font-size: 80px;
@@ -80,5 +76,7 @@ a:hover{
 
 
 .images{
+    margin-top: 50px;
     position: relative;
+    box-shadow: inset;
 }
