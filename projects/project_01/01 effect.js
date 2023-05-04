@@ -27,7 +27,7 @@ images.forEach((img) => {
 
 
 
-   /*// 添加鼠标事件监听器
+   // 添加鼠标事件监听器
    img.addEventListener('mousedown', (event) => {
     // 将图片置于其他图片之上
     img.style.zIndex = 1000;
@@ -76,4 +76,3 @@ images.forEach((img) => {
     }
   });
 });
-*/
