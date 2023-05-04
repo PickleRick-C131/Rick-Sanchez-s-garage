@@ -157,3 +157,8 @@ a:hover{
 
 
 
+.images{
+    position: relative;
+    width: auto;
+    height: auto;
+}
