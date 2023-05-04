@@ -17,6 +17,66 @@ body{
     background-color:black;
 }
 
+#images{
+    width: 100px;
+    height:auto;
+}
+.title{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+}
+/*initial page*/
+
+/*a*/
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    font-size: 30px;
+}
+/*a*/
+
+
+
+
+/*navigation*/
+   .navigation{
+       color: white;
+       font-family: monospace;
+       font-size: 20px;
+       display: flex;
+    }
+
+    .right_navigation{
+       display: flex;
+       margin-left: auto;
+       margin-right: 0px;
+    }
+
+   /*ins*/
+    #INS{
+       margin-left: 20px;
+
+    }
+    #INS:hover{
+       font-size: 30px;
+    }
+   /*in*/
+
+/*navigation*/
+
+
+
 
 
 .images{
