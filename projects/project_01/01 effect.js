@@ -40,7 +40,7 @@ images.forEach((img) => {
     const offsetX = startX - imgLeft;
     const offsetY = startY - imgTop;
 
-    // 添加mousemove和mouseup事件监听器
+        // 添加mousemove和mouseup事件监听器
     document.addEventListener('mousemove', moveHandler);
     document.addEventListener('mouseup', upHandler);
 
@@ -57,12 +57,22 @@ images.forEach((img) => {
 
     // 定义mouseup事件处理函数
     function upHandler(event) {
+      dragging = false; // 标记为没有拖动
+
       // 将图片恢复到原来的z-index值
       img.style.zIndex = zIndex;
 
       // 移除事件监听器
       document.removeEventListener('mousemove', moveHandler);
       document.removeEventListener('mouseup', upHandler);
-    }   
-   });
+    }
+  });
+
+  // 添加click事件监听器
+  img.addEventListener('click', () => {
+    if (!dragging) {
+      // 如果没有拖动，则将图片放下
+      img.style.zIndex = zIndex;
+    }
+  });
 });
