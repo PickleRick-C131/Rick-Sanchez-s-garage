@@ -24,4 +24,3 @@ images.forEach((img) => {
   img.style.top = top + 'px';
   img.style.transform = `rotate(${rotate}deg)`;
 });
-  
