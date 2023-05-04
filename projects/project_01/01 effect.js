@@ -1,4 +1,4 @@
-const container = document.querySelector('.images');
+const container = document.querySelector('.images-box');
 const images = container.querySelectorAll('img');
 
 
