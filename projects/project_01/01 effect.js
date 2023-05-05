@@ -2,7 +2,7 @@ const container = document.querySelector('.images-box');
 const images = container.querySelectorAll('img');
 
 function showCongrats(){
-  alert("Congrats!")
+  alert("Sing with me, All the single ladies, All the single ladies, All the single ladies!")
 }
 
 

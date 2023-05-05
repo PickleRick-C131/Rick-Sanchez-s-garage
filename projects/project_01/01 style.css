@@ -42,6 +42,10 @@ a{
        height: fit-content;
     }
 
+    .notes{
+     align-self: center;
+    }
+
     .left_navigation{
         margin-left: 0px;
         margin-right: auto;
