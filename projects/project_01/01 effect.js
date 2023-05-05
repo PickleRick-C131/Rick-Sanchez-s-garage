@@ -1,7 +1,9 @@
 const container = document.querySelector('.images-box');
 const images = container.querySelectorAll('img');
 
-
+function showCongrats(){
+  alert("Congrats!")
+}
 
 
 images.forEach((img) => {
