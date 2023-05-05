@@ -67,6 +67,9 @@ a{
        height: auto;
     }
 
+
+
+
    #Paper_Money{
        width: 100%;
        height: 100%;
@@ -93,17 +96,19 @@ a{
           background-color: black;
        }
 
-            #the_USD{
-                width: 100%;
-                box-shadow: 5px 5px 10px rgb(145, 145, 145);
-            }
-           
-            #USD100{
+
+            
+           /*USD100*/
+            .USD100{
                 position: relative;
             }
 
+            .USD100:hover{
+                transform: scale(120%);;
+            }
 
             .text_USD100{
+                z-index: 999;
                 width: 500px;
                 background-color: gray;
                 display: none;
@@ -114,14 +119,138 @@ a{
                 border-radius: 10px;
                 opacity: 80%;
                 font-family: monospace;
-                font-size: 12px;
+                font-size: 20px;
                 color: rgb(197, 197, 197);
             }
+            /*USD100*/
+             
+            /*USD50*/
+            .USD50{
+                width: 500px;
+                position: relative;
+            }
+
+            .USD50:hover{
+                transform: scale(120%);
+            }
+
+            .text_USD50{
+                z-index: 999;
+                width: 500px;
+                background-color: gray;
+                display: none;
+                position: absolute;
+                text-align: justify;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+                opacity: 80%;
+                font-family: monospace;
+                font-size: 20px;
+                color: rgb(197, 197, 197);
+            }
+            /*USD50*/
+
+
+            /*USD20*/
+            .USD20{
+                position: relative;
+            }
+
+            .USD20:hover{
+                transform: scale(120%);
+            }
+
+            .text_USD20{
+                z-index: 999;
+                width: 500px;
+                background-color: gray;
+                display: none;
+                position: absolute;
+                text-align: justify;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+                opacity: 80%;
+                font-family: monospace;
+                font-size: 20px;
+                color: rgb(197, 197, 197);
+            }
+            /*USD20*/
+
+
+            /*USD10*/
+            .USD10{
+                position: relative;
+            }
+
+            .USD10:hover{
+                transform: scale(120%);
+            }
+
+            .text_USD10{
+                z-index: 999;
+                width: 500px;
+                background-color: gray;
+                display: none;
+                position: absolute;
+                text-align: justify;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+                opacity: 80%;
+                font-family: monospace;
+                font-size: 20px;
+                color: rgb(197, 197, 197);
+            }
+            /*USD10*/
+
+
+            /*USD5*/
+            .USD5{
+                position: relative;
+            }
+
+            .USD5:hover{
+                transform: scale(120%);
+            }
+
+            .text_USD5{
+                z-index: 999;
+                width: 500px;
+                background-color: gray;
+                display: none;
+                position: absolute;
+                text-align: justify;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+                opacity: 80%;
+                font-family: monospace;
+                font-size: 20px;
+                color: rgb(197, 197, 197);
+            }
+            /*USD5*/
+
 
     
 
 
-    /*RMB*/    
+    /*LIRA*/
+    #LIRA{
+        margin-top: 50px;
+        width: auto;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+        align-items: flex-start;
+    }
+   
+    
+
+
+
 /*contents*/
 
 
