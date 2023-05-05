@@ -17,6 +17,11 @@ images.forEach((img) => {
   const left = Math.max(containerLeft, Math.min((containerRight - img.offsetWidth), containerLeft + Math.floor(Math.random() * (container.offsetWidth-300))));
   const top = Math.max(containerTop, Math.min(containerBottom, containerTop + Math.floor(Math.random() * container.offsetHeight)));
   
+ //put a img below
+  if (img.getAttribute('src') === 'https://github.com/PickleRick-C131/Rick-Sanchez-s-garage/blob/main/assets/for%20project_01/bizaard/Beyonce.jpg?raw=true') {
+    img.style.zIndex = '-1';
+  }
+
   // 随机计算出旋转角度
   const rotate = Math.floor(Math.random() * 60) - 30;
 
@@ -24,13 +29,9 @@ images.forEach((img) => {
   img.style.position = 'absolute';
   img.style.left = left + 'px';
   img.style.top = top + 'px';
-  img.style.transform = `rotate(${rotate}deg)`;                      
-});
-
-
-
-
-
+  img.style.transform = `rotate(${rotate}deg)`;   
+  
+  
 
 // 添加鼠标事件监听器
 img.addEventListener('mousedown', (event) => {
@@ -84,3 +85,12 @@ img.addEventListener('dragstart', (event) => {
 // 防止图片被拖动
 event.preventDefault();
 });
+
+
+});
+
+
+
+
+
+

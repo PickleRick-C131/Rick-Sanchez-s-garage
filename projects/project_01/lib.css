@@ -14,40 +14,20 @@ body{
     overflow: scroll;
     height: 100%;
     background-color:black;
-}
-/*initial page*/
-.initial_page{
-    height:100vh;
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    background-image: url(https://github.com/PickleRick-C131/Rick-Sanchez-s-garage/blob/main/assets/for%20project_01/Money.png?raw=true);
-    background-size:cover;
+    display: block;
 }
 
-.title{
-    color: white;
-    font-size: 80px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 10px;
-    padding: 10px;
-    font-family: monospace;
-}
-/*initial page*/
+
+
 
 /*a*/
 a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    font-family: monospace;
 }
 
-a:hover{
-    font-size: 30px;
-}
 /*a*/
 
 
@@ -55,10 +35,15 @@ a:hover{
 
 /*navigation*/
    .navigation{
-       color: white;
-       font-family: monospace;
-       font-size: 20px;
        display: flex;
+       width: 100%;
+       height: fit-content;
+    }
+
+    .left_navigation{
+        margin-left: 0px;
+        margin-right: auto;
+        
     }
 
     .right_navigation{
@@ -70,42 +55,14 @@ a:hover{
    /*ins*/
     #INS{
        margin-left: 20px;
-
-    }
-    #INS:hover{
-       font-size: 30px;
     }
    /*in*/
-
-
-
-   /*NPaper Money*/
-   #NPaper_Money{
-       margin-left: 20px;
-       margin-right: 20px;
-   }
-   #NPaper_Money:hover{
-       font-size: 30px;
-   }
-   /*Paper Money*/
-
-
-   /*Coins*/
-   #NCoins{
-       margin-left: 20px;
-       margin-right: 20px;
-   }
-
-   #NCoins:hover{
-       font-size: 30px;
-   }
-
 /*navigation*/
 
 
 /*contents*/
    .contents{
-       
+       display: block;
        width: 100%;
        height: auto;
     }
@@ -129,7 +86,7 @@ a:hover{
         }
 
       .with_text{
-          display: flex;
+          display: block;
           flex-direction: column;
           margin-left: 5px;
           width: 15%;
@@ -140,17 +97,31 @@ a:hover{
                 width: 100%;
                 box-shadow: 5px 5px 10px rgb(145, 145, 145);
             }
-            .the_USD:hover{
-                scale: 120%;
+           
+            #USD100{
+                position: relative;
             }
-            .text{
+
+
+            .text_USD100{
+                width: 500px;
+                background-color: gray;
+                display: none;
+                position: absolute;
                 text-align: justify;
-                margin-top: 20px;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+                opacity: 80%;
                 font-family: monospace;
                 font-size: 12px;
                 color: rgb(197, 197, 197);
             }
 
     
+
+
     /*RMB*/    
 /*contents*/
+
+
