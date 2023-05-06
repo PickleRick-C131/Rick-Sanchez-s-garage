@@ -18,6 +18,141 @@ body{
 }
 
 
+#intro_usd{
+   position: absolute;
+   top:10%;
+   left: 30%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_lira{
+   position: absolute;
+   top:20%;
+   left: 60%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_mark{
+   position: absolute;
+   top:40%;
+   left: 40%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_pound{
+   position: absolute;
+   top:60%;
+   left: 10%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_rand{
+   position: absolute;
+   top:60%;
+   left: 80%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_ruble{
+   position: absolute;
+   top:50%;
+   left: 60%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_won{
+   position: absolute;
+   top:60%;
+   left: 45%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_yen{
+   position: absolute;
+   top:20%;
+   left: 5%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
+#intro_yuan{
+   position: absolute;
+   top:25%;
+   left: 85%;
+   width: 200px;
+   height: fit-content;
+   background-color: #f4f1b7;
+   padding: 20px;
+   
+   z-index: 999;
+   color: rgb(45, 45, 45);
+   box-shadow: 10px 10px 50px rgb(75, 75, 75);
+   font-family: monospace;
+}
+
 
 
 /*a*/
@@ -81,6 +216,24 @@ a{
        flex-direction: column;
     }
 
+    .with_text{
+      display: block;
+      flex-direction: column;
+      margin-left: 5px;
+      width: 15%;
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      font-size: 20px;
+   }
+
+   .intro{
+      color: rgb(65, 65, 65);
+      font-family: monospace;
+      font-size: 30px;
+   }
+
+
    /*USD*/
       #USD{
           width: auto;
@@ -92,19 +245,6 @@ a{
           margin-top: 20px;
           margin-bottom: 20px;
         }
-
-      .with_text{
-          display: block;
-          flex-direction: column;
-          margin-left: 5px;
-          width: 15%;
-          background-color: black;
-          color: white;
-          font-family: monospace;
-          font-size: 20px;
-       }
-
-
             
            /*USD100*/
             .USD100{
@@ -532,6 +672,7 @@ a{
 
        /*mark100*/
           .mark100{
+             width: 200%;
              transition: transform 0.3s ease-out;
              position: relative;
             }
@@ -770,6 +911,7 @@ a{
 
        /*pound50*/
           .pound50{
+             width: 200%;
              transition: transform 0.3s ease-out;
              position: relative;
             }
@@ -838,6 +980,7 @@ a{
 
         /*rand10*/
           .rand10{
+             width: 200%;
              transition: transform 0.3s ease-out;
              position: relative;
             }
@@ -1017,6 +1160,7 @@ a{
 
        /*ruble500*/
           .ruble500{
+             width: 200%;
              transition: transform 0.3s ease-out;
              position: relative;
             }
@@ -1069,12 +1213,438 @@ a{
              color: rgb(197, 197, 197);
            }
        /*ruble5000*/
+   /*RUBLE*/
+
+   /*WON*/
+   #WON{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: auto;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
+     }    
+    
+       /*won100*/
+       .won100{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won100:hover{
+         transform: scale(120%);
+        }
+
+      .text_won100{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won100*/
+ 
+
+     /*won500*/
+       .won500{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won500:hover{
+         transform: scale(120%);
+        }
+
+      .text_won500{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won500*/
+
+
+     /*won1000*/
+       .won1000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won1000:hover{
+         transform: scale(120%);
+        }
+
+      .text_won1000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won1000*/
+
+     
+     /*won10000*/
+       .won10000{
+         width: 200%;
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won10000:hover{
+         transform: scale(120%);
+        }
+
+      .text_won10000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won10000*/
        
+
+
+     /*won50000*/
+       .won50000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won50000:hover{
+         transform: scale(120%);
+        }
+
+      .text_won50000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won50000*/
+
+
+     /*won5000*/
+       .won5000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .won5000:hover{
+         transform: scale(120%);
+        }
+
+      .text_won5000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*won5000*/
+   /*WON*/
+
+
+   /*YEN*/
+   #YEN{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: auto;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
+     }    
+    
+       /*yen1000*/
+       .yen1000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yen1000:hover{
+         transform: scale(120%);
+        }
+
+      .text_yen1000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yen1000*/
+
+     /*yen10000*/
+       .yen10000{
+         width: 200%;
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yen10000:hover{
+         transform: scale(120%);
+        }
+
+      .text_yen10000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yen10000*/
     
 
-       
-    
+     /*yen5000*/
+       .yen5000{
+         
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
 
+      .yen5000:hover{
+         transform: scale(120%);
+        }
+
+      .text_yen5000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yen5000*/
+   /*YEN*/
+
+
+
+   /*YUAN*/
+   #YUAN{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: auto;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
+     }    
+
+     /*yuan1*/
+       .yuan1{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yuan1:hover{
+         transform: scale(120%);
+        }
+
+      .text_yuan1{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yuan1*/
+
+     /*yuan10*/
+       .yuan10{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yuan10:hover{
+         transform: scale(120%);
+        }
+
+      .text_yuan10{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yuan10*/
+
+     /*yuan100*/
+       .yuan100{
+         width: 200%;
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yuan100:hover{
+         transform: scale(120%);
+        }
+
+      .text_yuan100{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yuan100*/
+
+     /*yuan20*/
+       .yuan20{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yuan20:hover{
+         transform: scale(120%);
+        }
+
+      .text_yuan20{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yuan20*/
+
+
+     /*yuan50*/
+       .yuan50{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .yuan50:hover{
+         transform: scale(120%);
+        }
+
+      .text_yuan50{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*yuan50*/
 
 
 /*contents*/

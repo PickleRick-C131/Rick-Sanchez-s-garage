@@ -379,3 +379,361 @@ img_pound5.addEventListener('mouseout', function() {
   tooltip_pound5.style.display = 'none';
 });
 //pound5
+
+
+
+
+
+//rand10
+const img_rand10 = document.querySelector('.rand10');
+const tooltip_rand10 = document.querySelector('.text_rand10');
+
+img_rand10.addEventListener('mousemove', function(e) {
+  tooltip_rand10.style.display = 'block';
+  tooltip_rand10.style.top = e.pageY + 'px';
+  tooltip_rand10.style.left = (e.pageX + 20) + 'px';
+});
+
+img_rand10.addEventListener('mouseout', function() {
+  tooltip_rand10.style.display = 'none';
+});
+//rand10
+
+//rand100
+const img_rand100 = document.querySelector('.rand100');
+const tooltip_rand100 = document.querySelector('.text_rand100');
+
+img_rand100.addEventListener('mousemove', function(e) {
+  tooltip_rand100.style.display = 'block';
+  tooltip_rand100.style.top = e.pageY + 'px';
+  tooltip_rand100.style.left = (e.pageX + 20) + 'px';
+});
+
+img_rand100.addEventListener('mouseout', function() {
+  tooltip_rand100.style.display = 'none';
+});
+//rand100
+
+//rand20
+const img_rand20 = document.querySelector('.rand20');
+const tooltip_rand20 = document.querySelector('.text_rand20');
+
+img_rand20.addEventListener('mousemove', function(e) {
+  tooltip_rand20.style.display = 'block';
+  tooltip_rand20.style.top = e.pageY + 'px';
+  tooltip_rand20.style.left = (e.pageX + 20) + 'px';
+});
+
+img_rand20.addEventListener('mouseout', function() {
+  tooltip_rand20.style.display = 'none';
+});
+//rand20
+
+//rand200
+const img_rand200 = document.querySelector('.rand200');
+const tooltip_rand200 = document.querySelector('.text_rand200');
+
+img_rand200.addEventListener('mousemove', function(e) {
+  tooltip_rand200.style.display = 'block';
+  tooltip_rand200.style.top = e.pageY + 'px';
+  tooltip_rand200.style.left = (e.pageX - 600) + 'px';
+});
+
+img_rand200.addEventListener('mouseout', function() {
+  tooltip_rand200.style.display = 'none';
+});
+//rand200
+
+//rand50
+const img_rand50 = document.querySelector('.rand50');
+const tooltip_rand50 = document.querySelector('.text_rand50');
+
+img_rand50.addEventListener('mousemove', function(e) {
+  tooltip_rand50.style.display = 'block';
+  tooltip_rand50.style.top = e.pageY + 'px';
+  tooltip_rand50.style.left = (e.pageX - 600) + 'px';
+});
+
+img_rand50.addEventListener('mouseout', function() {
+  tooltip_rand50.style.display = 'none';
+});
+//rand50
+
+
+
+
+
+
+
+//ruble100
+const img_ruble100= document.querySelector('.ruble100');
+const tooltip_ruble100 = document.querySelector('.text_ruble100');
+
+img_ruble100.addEventListener('mousemove', function(e) {
+  tooltip_ruble100.style.display = 'block';
+  tooltip_ruble100.style.top = e.pageY + 'px';
+  tooltip_ruble100.style.left = (e.pageX + 20) + 'px';
+});
+
+img_ruble100.addEventListener('mouseout', function() {
+  tooltip_ruble100.style.display = 'none';
+});
+//ruble100
+
+//ruble500
+const img_ruble500= document.querySelector('.ruble500');
+const tooltip_ruble500 = document.querySelector('.text_ruble500');
+
+img_ruble500.addEventListener('mousemove', function(e) {
+  tooltip_ruble500.style.display = 'block';
+  tooltip_ruble500.style.top = e.pageY + 'px';
+  tooltip_ruble500.style.left = (e.pageX + 20) + 'px';
+});
+
+img_ruble500.addEventListener('mouseout', function() {
+  tooltip_ruble500.style.display = 'none';
+});
+//ruble500
+
+//ruble5000
+const img_ruble5000= document.querySelector('.ruble5000');
+const tooltip_ruble5000 = document.querySelector('.text_ruble5000');
+
+img_ruble5000.addEventListener('mousemove', function(e) {
+  tooltip_ruble5000.style.display = 'block';
+  tooltip_ruble5000.style.top = e.pageY + 'px';
+  tooltip_ruble5000.style.left = (e.pageX - 600) + 'px';
+});
+
+img_ruble5000.addEventListener('mouseout', function() {
+  tooltip_ruble5000.style.display = 'none';
+});
+//ruble5000
+
+
+
+
+
+//won100
+const img_won100= document.querySelector('.won100');
+const tooltip_won100 = document.querySelector('.text_won100');
+
+img_won100.addEventListener('mousemove', function(e) {
+  tooltip_won100.style.display = 'block';
+  tooltip_won100.style.top = e.pageY + 'px';
+  tooltip_won100.style.left = (e.pageX + 20) + 'px';
+});
+
+img_won100.addEventListener('mouseout', function() {
+  tooltip_won100.style.display = 'none';
+});
+//won100
+
+//won500
+const img_won500= document.querySelector('.won500');
+const tooltip_won500 = document.querySelector('.text_won500');
+
+img_won500.addEventListener('mousemove', function(e) {
+  tooltip_won500.style.display = 'block';
+  tooltip_won500.style.top = e.pageY + 'px';
+  tooltip_won500.style.left = (e.pageX + 20) + 'px';
+});
+
+img_won500.addEventListener('mouseout', function() {
+  tooltip_won500.style.display = 'none';
+});
+//won500
+
+//won1000
+const img_won1000= document.querySelector('.won1000');
+const tooltip_won1000 = document.querySelector('.text_won1000');
+
+img_won1000.addEventListener('mousemove', function(e) {
+  tooltip_won1000.style.display = 'block';
+  tooltip_won1000.style.top = e.pageY + 'px';
+  tooltip_won1000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_won1000.addEventListener('mouseout', function() {
+  tooltip_won1000.style.display = 'none';
+});
+//won1000
+
+//won10000
+const img_won10000= document.querySelector('.won10000');
+const tooltip_won10000 = document.querySelector('.text_won10000');
+
+img_won10000.addEventListener('mousemove', function(e) {
+  tooltip_won10000.style.display = 'block';
+  tooltip_won10000.style.top = e.pageY + 'px';
+  tooltip_won10000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_won10000.addEventListener('mouseout', function() {
+  tooltip_won10000.style.display = 'none';
+});
+//won10000
+
+//won50000
+const img_won50000= document.querySelector('.won50000');
+const tooltip_won50000 = document.querySelector('.text_won50000');
+
+img_won50000.addEventListener('mousemove', function(e) {
+  tooltip_won50000.style.display = 'block';
+  tooltip_won50000.style.top = e.pageY + 'px';
+  tooltip_won50000.style.left = (e.pageX - 600) + 'px';
+});
+
+img_won50000.addEventListener('mouseout', function() {
+  tooltip_won50000.style.display = 'none';
+});
+//won50000
+
+//won5000
+const img_won5000= document.querySelector('.won5000');
+const tooltip_won5000 = document.querySelector('.text_won5000');
+
+img_won5000.addEventListener('mousemove', function(e) {
+  tooltip_won5000.style.display = 'block';
+  tooltip_won5000.style.top = e.pageY + 'px';
+  tooltip_won5000.style.left = (e.pageX - 600) + 'px';
+});
+
+img_won5000.addEventListener('mouseout', function() {
+  tooltip_won5000.style.display = 'none';
+});
+//won5000
+
+
+
+
+
+//yen1000
+const img_yen1000= document.querySelector('.yen1000');
+const tooltip_yen1000 = document.querySelector('.text_yen1000');
+
+img_yen1000.addEventListener('mousemove', function(e) {
+  tooltip_yen1000.style.display = 'block';
+  tooltip_yen1000.style.top = e.pageY + 'px';
+  tooltip_yen1000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_yen1000.addEventListener('mouseout', function() {
+  tooltip_yen1000.style.display = 'none';
+});
+//yen1000
+
+
+//yen10000
+const img_yen10000= document.querySelector('.yen10000');
+const tooltip_yen10000 = document.querySelector('.text_yen10000');
+
+img_yen10000.addEventListener('mousemove', function(e) {
+  tooltip_yen10000.style.display = 'block';
+  tooltip_yen10000.style.top = e.pageY + 'px';
+  tooltip_yen10000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_yen10000.addEventListener('mouseout', function() {
+  tooltip_yen10000.style.display = 'none';
+});
+//yen10000
+
+
+//yen5000
+const img_yen5000= document.querySelector('.yen5000');
+const tooltip_yen5000 = document.querySelector('.text_yen5000');
+
+img_yen5000.addEventListener('mousemove', function(e) {
+  tooltip_yen5000.style.display = 'block';
+  tooltip_yen5000.style.top = e.pageY + 'px';
+  tooltip_yen5000.style.left = (e.pageX - 600) + 'px';
+});
+
+img_yen5000.addEventListener('mouseout', function() {
+  tooltip_yen5000.style.display = 'none';
+});
+//yen5000
+
+
+
+
+
+
+//yuan1
+const img_yuan1= document.querySelector('.yuan1');
+const tooltip_yuan1 = document.querySelector('.text_yuan1');
+
+img_yuan1.addEventListener('mousemove', function(e) {
+  tooltip_yuan1.style.display = 'block';
+  tooltip_yuan1.style.top = (e.pageY -300) + 'px';
+  tooltip_yuan1.style.left = (e.pageX + 20) + 'px';
+});
+
+img_yuan1.addEventListener('mouseout', function() {
+  tooltip_yuan1.style.display = 'none';
+});
+//yuan1
+
+//yuan10
+const img_yuan10= document.querySelector('.yuan10');
+const tooltip_yuan10 = document.querySelector('.text_yuan10');
+
+img_yuan10.addEventListener('mousemove', function(e) {
+  tooltip_yuan10.style.display = 'block';
+  tooltip_yuan10.style.top = (e.pageY -300) + 'px';
+  tooltip_yuan10.style.left = (e.pageX + 20) + 'px';
+});
+
+img_yuan10.addEventListener('mouseout', function() {
+  tooltip_yuan10.style.display = 'none';
+});
+//yuan10
+
+
+//yuan100
+const img_yuan100= document.querySelector('.yuan100');
+const tooltip_yuan100 = document.querySelector('.text_yuan10');
+
+img_yuan100.addEventListener('mousemove', function(e) {
+  tooltip_yuan100.style.display = 'block';
+  tooltip_yuan100.style.top = (e.pageY -300) + 'px';
+  tooltip_yuan100.style.left = (e.pageX + 20) + 'px';
+});
+
+img_yuan100.addEventListener('mouseout', function() {
+  tooltip_yuan100.style.display = 'none';
+});
+//yuan100
+
+
+//yuan20
+const img_yuan20= document.querySelector('.yuan20');
+const tooltip_yuan20 = document.querySelector('.text_yuan20');
+
+img_yuan20.addEventListener('mousemove', function(e) {
+  tooltip_yuan20.style.display = 'block';
+  tooltip_yuan20.style.top = (e.pageY -300) + 'px';
+  tooltip_yuan20.style.left = (e.pageX - 600) + 'px';
+});
+
+img_yuan20.addEventListener('mouseout', function() {
+  tooltip_yuan20.style.display = 'none';
+});
+//yuan20
+
+
+//yuan50
+const img_yuan50= document.querySelector('.yuan50');
+const tooltip_yuan50 = document.querySelector('.text_yuan50');
+
+img_yuan50.addEventListener('mousemove', function(e) {
+  tooltip_yuan50.style.display = 'block';
+  tooltip_yuan50.style.top = (e.pageY -300) + 'px';
+  tooltip_yuan50.style.left = (e.pageX - 600) + 'px';
+});
+
+img_yuan50.addEventListener('mouseout', function() {
+  tooltip_yuan50.style.display = 'none';
+});
+//yuan50
