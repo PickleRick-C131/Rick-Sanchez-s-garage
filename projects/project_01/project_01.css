@@ -4,6 +4,16 @@ body{
     display:block;
 }
 
+
+#top_bar{
+    width: 100%;
+    height: max-content;
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: rgb(234, 213, 82);
+}
+
 #title{
     width: 100%;
     line-height: 50px;
@@ -16,6 +26,7 @@ body{
 }
 
 #navigation{
+    border-top: 0.1px solid rgb(128, 128, 128);
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -24,11 +35,100 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
+    letter-spacing: 3px;
     
+}
+
+a{  color: black;
+    text-decoration: none;
+    font-weight: lighter;
 }
 
 .n{
     margin: 10px;
     padding: 10px;
+}
+
+#big{
+
+    width: 100%;
+    margin-top: 200px;
+    display:flex;
+    margin-left: 0;
+    margin-right: o;
+}
+
+#prince{
+    margin-right: 60px;
+    margin-left: auto;
+    width: 30%;
+    height: auto;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+.red{
+    font-size: 30px;
+    font-weight: 1000;
+    font-style: oblique;
+    color:rgb(202, 69, 69) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    letter-spacing: 5px;
+}
+
+#intro{
+    width: 620px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+}
+
+#vinyl{
+    margin: 5px;
+    background-color:rgb(202, 69, 69) ;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#cd{
+    margin: 5px;
+    background-color:rgb(202, 69, 69);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#show{
+    align-items: center;
+    display: block;
+    margin-top: 300px;
+}
+
+#trend{
+    text-align: center;
+}
+
+#pics{
+    justify-content:center ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pic{
+    width: 15%;
+    margin: 40px;
 }
