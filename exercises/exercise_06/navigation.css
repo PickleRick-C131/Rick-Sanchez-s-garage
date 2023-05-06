@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(115, 130, 183) ;
-margin: 0;
+ background-color: rgb(115, 130, 183) ;
+ margin: 0;
+ text-decoration: none;
 }
 
 
@@ -22,7 +23,8 @@ margin: 0;
     justify-content: space-around;
 }
 
-.a{
+a{
+    color: white;
     text-decoration: none;
 }
 
