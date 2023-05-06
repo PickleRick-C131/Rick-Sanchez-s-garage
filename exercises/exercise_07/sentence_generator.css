@@ -66,7 +66,7 @@ body{
     color: white;
    }
 
-   .button{
+   .click{
     margin: 0 auto;
     width: 400px;
     text-align: center;
@@ -76,3 +76,25 @@ body{
     font-family: monospace;
     color: white;
    }
+
+
+   button {
+    background-color: bisque;
+    color:  rgb(241, 89, 43);
+
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+   }
+
+   button:hover{
+    color: rgb(167, 65, 34);
+   }
+
+.sentence{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
