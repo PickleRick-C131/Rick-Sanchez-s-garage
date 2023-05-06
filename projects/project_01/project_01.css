@@ -113,7 +113,7 @@ p{
 #show{
     align-items: center;
     display: block;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 #trend{
@@ -144,4 +144,22 @@ p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(72, 72, 72);
+}
+
+#f_frame{
+    display: block;
+}
+
+#logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:30px;
+    margin-top: 0;
+    margin-left:10px;
+    margin-right:10px;
+
+
 }
