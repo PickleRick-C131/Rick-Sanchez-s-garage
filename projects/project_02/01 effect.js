@@ -74,18 +74,19 @@ document.addEventListener('mouseup', upHandler);
 
 // 添加click事件监听器
 img.addEventListener('click', () => {
-// 如果没有拖动，则将图片放下
-if (img.dataset.dragging !== 'true') {
-img.style.zIndex = zIndex;
-}
+  // 如果没有拖动，则将图片放下
+  if (img.dataset.dragging !== 'true') {
+    img.style.zIndex = zIndex;
+    // 将数据属性dragging重置为false
+    img.dataset.dragging = 'false';
+  }
 });
 
-// 添加dragstart事件监听器
-img.addEventListener('dragstart', (event) => {
-// 防止图片被拖动
-event.preventDefault();
+// 添加鼠标单击事件监听器
+img.addEventListener('mouseup', () => {
+  // 如果图片被移动过，则将数据属性dragging设置为true
+  img.dataset.dragging = 'true';
 });
-
 
 });
 
