@@ -86,6 +86,8 @@ a{
           justify-content: space-between;
           align-items: center;
           align-items: flex-start;
+          margin-top: 20px;
+          margin-bottom: 20px;
         }
 
       .with_text{
@@ -94,12 +96,16 @@ a{
           margin-left: 5px;
           width: 15%;
           background-color: black;
+          color: white;
+          font-family: monospace;
+          font-size: 20px;
        }
 
 
             
            /*USD100*/
             .USD100{
+                transition: transform 0.3s ease-out;
                 position: relative;
             }
 
@@ -126,7 +132,8 @@ a{
              
             /*USD50*/
             .USD50{
-                width: 500px;
+                transition: transform 0.3s ease-out;
+                width: 200%;
                 position: relative;
             }
 
@@ -154,6 +161,7 @@ a{
 
             /*USD20*/
             .USD20{
+                transition: transform 0.3s ease-out;
                 position: relative;
             }
 
@@ -181,6 +189,7 @@ a{
 
             /*USD10*/
             .USD10{
+                transition: transform 0.3s ease-out;
                 position: relative;
             }
 
@@ -208,6 +217,7 @@ a{
 
             /*USD5*/
             .USD5{
+                transition: transform 0.3s ease-out;
                 position: relative;
             }
 
@@ -230,23 +240,836 @@ a{
                 font-size: 20px;
                 color: rgb(197, 197, 197);
             }
-            /*USD5*/
+    /*USD5*/
 
-
-    
+  /*divider*/
+  .divider{
+      width: 100%;
+      text-align: center;
+      font-size: 50px;
+      font-family: monospace;
+      position: center;
+      color: rgb(41, 41, 41);
+    }
+/*divider*/
 
 
     /*LIRA*/
-    #LIRA{
-        margin-top: 50px;
+     #LIRA{
+         margin-top: 20px;
+         margin-bottom: 20px;
+         width: auto;
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         align-items: center;
+         align-items: flex-start;
+     }
+   
+       /*LIRA1*/
+            .lira1{
+                transition: transform 0.3s ease-out;
+              position: relative;
+            }
+
+         .lira1:hover{
+             transform: scale(120%);
+            }
+
+         .text_lira1{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+            }
+        /*LIRA1*/
+
+        /*LIRA100*/
+          .lira100{
+             transition: transform 0.3s ease-out;
+              position: relative;
+            }
+
+          .lira100:hover{
+             transform: scale(120%);
+            }
+
+         .text_lira100{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*LIRA100*/
+
+
+        /*LIRA10*/
+          .lira10{
+             transition: transform 0.3s ease-out;
+              position: relative;
+            }
+
+          .lira10:hover{
+             transform: scale(120%);
+            }
+
+         .text_lira10{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+            }
+       /*LIRA10*/
+
+       /*LIRA10*/
+         .lira200{
+             transition: transform 0.3s ease-out;
+              width: 200%;
+              position: relative;
+           }
+
+          .lira200:hover{
+             transform: scale(120%);
+            }
+
+         .text_lira200{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+            }
+       /*LIRA10*/
+
+       /*LIRA200*/
+          .lira200{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .lira200:hover{
+             transform: scale(120%);
+            }
+
+          .text_lira200{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+     /*LIRA200*/
+
+     /*LIRA20*/
+          .lira20{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .lira20:hover{
+             transform: scale(120%);
+            }
+
+          .text_lira20{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+     /*LIRA20*/
+
+      /*LIRA5*/
+          .lira5{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .lira5:hover{
+             transform: scale(120%);
+            }
+
+          .text_lira5{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*LIRA5*/
+
+        /*LIRA50*/
+          .lira50{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .lira50:hover{
+             transform: scale(120%);
+            }
+
+          .text_lira50{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*LIRA50*/
+    /*LIRA*/
+
+
+    /*MARK*/
+      #MARK{
+         margin-top: 20px;
+         margin-bottom: 20px;
+         width: auto;
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         align-items: center;
+         align-items: flex-start;
+       }
+
+
+        /*mark10*/
+          .mark10{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark10:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark10{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark10*/
+
+
+       /*mark100*/
+          .mark100{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark100:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark100{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark100*/
+
+
+        /*mark20*/
+          .mark20{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark20:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark20{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark20*/
+
+
+       /*mark200*/
+          .mark200{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark200:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark200{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark200*/
+
+
+       /*mark5*/
+          .mark5{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark5:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark5{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark5*/
+
+
+       /*mark50*/
+          .mark50{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark50:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark50{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark50*/
+
+
+        /*mark500*/
+          .mark500{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .mark500:hover{
+             transform: scale(120%);
+            }
+
+          .text_mark500{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*mark500*/
+
+
+
+    /*POUND*/
+      #POUND{
+         margin-top: 20px;
+         margin-bottom: 20px;
+         width: auto;
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         align-items: center;
+         align-items: flex-start;
+       }
+
+
+        /*pound1*/
+          .pound1{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .pound1:hover{
+             transform: scale(120%);
+            }
+
+          .text_pound1{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*pound1*/
+
+
+       /*pound20*/
+          .pound20{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .pound20:hover{
+             transform: scale(120%);
+            }
+
+          .text_pound20{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*pound20*/
+
+
+       /*pound50*/
+          .pound50{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .pound50:hover{
+             transform: scale(120%);
+            }
+
+          .text_pound50{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*pound50*/
+
+
+       /*pound5*/
+          .pound5{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .pound5:hover{
+             transform: scale(120%);
+            }
+
+          .text_pound5{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*pound5*/
+
+    /*RAND*/
+     #RAND{
+         margin-top: 20px;
+         margin-bottom: 20px;
+         width: auto;
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         align-items: center;
+         align-items: flex-start;
+        } 
+
+
+        /*rand10*/
+          .rand10{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .rand10:hover{
+             transform: scale(120%);
+            }
+
+          .text_rand10{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*rand10*/
+
+
+       /*rand100*/
+          .rand100{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .rand100:hover{
+             transform: scale(120%);
+            }
+
+          .text_rand100{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*rand100*/
+
+
+       /*rand20*/
+          .rand20{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .rand20:hover{
+             transform: scale(120%);
+            }
+
+          .text_rand20{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*rand20*/
+
+
+       /*rand200*/
+          .rand200{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .rand200:hover{
+             transform: scale(120%);
+            }
+
+          .text_rand200{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*rand200*/
+
+
+       /*rand50*/
+          .rand50{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .rand50:hover{
+             transform: scale(120%);
+            }
+
+          .text_rand50{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*rand50*/
+
+   /*RUBLE*/
+     #RUBLE{
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: auto;
         display: flex;
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
         align-items: flex-start;
-    }
-   
+       }    
+
+       /*ruble100*/
+          .ruble100{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .ruble100:hover{
+             transform: scale(120%);
+            }
+
+          .text_ruble100{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*ruble100*/
+
+
+       /*ruble500*/
+          .ruble500{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .ruble500:hover{
+             transform: scale(120%);
+            }
+
+          .text_ruble500{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*ruble500*/
+
+
+       /*ruble5000*/
+          .ruble5000{
+             transition: transform 0.3s ease-out;
+             position: relative;
+            }
+
+          .ruble5000:hover{
+             transform: scale(120%);
+            }
+
+          .text_ruble5000{
+             z-index: 999;
+             width: 500px;
+             background-color: gray;
+             display: none;
+             position: absolute;
+             text-align: justify;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             opacity: 80%;
+             font-family: monospace;
+             font-size: 20px;
+             color: rgb(197, 197, 197);
+           }
+       /*ruble5000*/
+       
+    
+
+       
     
 
 
