@@ -28,7 +28,7 @@ body{
 
 
 
-div img{
+.headshot{
     margin: 10px;
     padding: 10px;
     max-width: 600px;
@@ -65,4 +65,16 @@ a{
     color: black;
     letter-spacing: 3px;
     font-size: 15px;
+}
+
+.rick_gif{
+    position:fixed ;
+    right: 2%;
+    top:700px
+}
+
+.summer_gif{
+    position:fixed ;
+    right: 30%;
+    top:700px
 }
