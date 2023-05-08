@@ -737,3 +737,130 @@ img_yuan50.addEventListener('mouseout', function() {
   tooltip_yuan50.style.display = 'none';
 });
 //yuan50
+
+
+
+
+
+
+//shilingi100
+const img_shilingi100= document.querySelector('.shilingi100');
+const tooltip_shilingi100 = document.querySelector('.text_shilingi100');
+
+img_shilingi100.addEventListener('mousemove', function(e) {
+  tooltip_shilingi100.style.display = 'block';
+  tooltip_shilingi100.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi100.style.left = (e.pageX + 20) + 'px';
+});
+
+img_shilingi100.addEventListener('mouseout', function() {
+  tooltip_shilingi100.style.display = 'none';
+});
+//shilingi100
+
+
+//shilingi1000
+const img_shilingi1000= document.querySelector('.shilingi1000');
+const tooltip_shilingi1000 = document.querySelector('.text_shilingi1000');
+
+img_shilingi1000.addEventListener('mousemove', function(e) {
+  tooltip_shilingi1000.style.display = 'block';
+  tooltip_shilingi1000.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi1000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_shilingi1000.addEventListener('mouseout', function() {
+  tooltip_shilingi1000.style.display = 'none';
+});
+//shilingi1000
+
+//shilingi10000
+const img_shilingi10000= document.querySelector('.shilingi10000');
+const tooltip_shilingi10000 = document.querySelector('.text_shilingi10000');
+
+img_shilingi10000.addEventListener('mousemove', function(e) {
+  tooltip_shilingi10000.style.display = 'block';
+  tooltip_shilingi10000.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi10000.style.left = (e.pageX + 20) + 'px';
+});
+
+img_shilingi10000.addEventListener('mouseout', function() {
+  tooltip_shilingi10000.style.display = 'none';
+});
+//shilingi10000
+
+//shilingi20
+const img_shilingi20= document.querySelector('.shilingi20');
+const tooltip_shilingi20 = document.querySelector('.text_shilingi20');
+
+img_shilingi20.addEventListener('mousemove', function(e) {
+  tooltip_shilingi20.style.display = 'block';
+  tooltip_shilingi20.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi20.style.left = (e.pageX + 20) + 'px';
+});
+
+img_shilingi20.addEventListener('mouseout', function() {
+  tooltip_shilingi20.style.display = 'none';
+});
+//shilingi20
+
+//shilingi200
+const img_shilingi200= document.querySelector('.shilingi200');
+const tooltip_shilingi200 = document.querySelector('.text_shilingi200');
+
+img_shilingi200.addEventListener('mousemove', function(e) {
+  tooltip_shilingi200.style.display = 'block';
+  tooltip_shilingi200.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi200.style.left = (e.pageX + 20) + 'px';
+});
+
+img_shilingi200.addEventListener('mouseout', function() {
+  tooltip_shilingi200.style.display = 'none';
+});
+//shilingi200
+
+
+//shilingi500
+const img_shilingi500= document.querySelector('.shilingi500');
+const tooltip_shilingi500 = document.querySelector('.text_shilingi500');
+
+img_shilingi500.addEventListener('mousemove', function(e) {
+  tooltip_shilingi500.style.display = 'block';
+  tooltip_shilingi500.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi500.style.left = (e.pageX - 600) + 'px';
+});
+
+img_shilingi500.addEventListener('mouseout', function() {
+  tooltip_shilingi500.style.display = 'none';
+});
+//shilingi500
+
+//shilingi5000
+const img_shilingi5000= document.querySelector('.shilingi5000');
+const tooltip_shilingi5000 = document.querySelector('.text_shilingi5000');
+
+img_shilingi5000.addEventListener('mousemove', function(e) {
+  tooltip_shilingi5000.style.display = 'block';
+  tooltip_shilingi5000.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi5000.style.left = (e.pageX - 600) + 'px';
+});
+
+img_shilingi5000.addEventListener('mouseout', function() {
+  tooltip_shilingi5000.style.display = 'none';
+});
+//shilingi5000
+
+//shilingi50
+const img_shilingi50= document.querySelector('.shilingi50');
+const tooltip_shilingi50 = document.querySelector('.text_shilingi50');
+
+img_shilingi50.addEventListener('mousemove', function(e) {
+  tooltip_shilingi50.style.display = 'block';
+  tooltip_shilingi50.style.top = (e.pageY -300) + 'px';
+  tooltip_shilingi50.style.left = (e.pageX - 600) + 'px';
+});
+
+img_shilingi50.addEventListener('mouseout', function() {
+  tooltip_shilingi50.style.display = 'none';
+});
+//shilingi50

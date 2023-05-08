@@ -140,8 +140,8 @@ body{
 
 #intro_yuan{
    position: absolute;
-   top:25%;
-   left: 85%;
+   top:70%;
+   left: 25%;
    width: 200px;
    height: fit-content;
    background-color: #f4f1b7;
@@ -151,6 +151,21 @@ body{
    color: rgb(45, 45, 45);
    box-shadow: 10px 10px 50px rgb(75, 75, 75);
    font-family: monospace;
+}
+
+#intro_shilingi{
+  position: absolute;
+  top:25%;
+  left: 85%;
+  width: 200px;
+  height: fit-content;
+  background-color: #f4f1b7;
+  padding: 20px;
+  
+  z-index: 999;
+  color: rgb(45, 45, 45);
+  box-shadow: 10px 10px 50px rgb(75, 75, 75);
+  font-family: monospace;
 }
 
 
@@ -1646,6 +1661,234 @@ a{
        }
      /*yuan50*/
 
+    /*SHILINGI*/
+    #SHILINGI{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: auto;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
+     }   
+
+     /*shilingi100*/
+       .shilingi100{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi100:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi100{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi100*/
+
+     /*shilingi1000*/
+       .shilingi1000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi1000:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi1000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi1000*/
+
+     /*shilingi10000*/
+       .shilingi10000{
+         width: 200%;
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi10000:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi10000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi10000*/
+
+     /*shilingi20*/
+       .shilingi20{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi20:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi20{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi20*/
+
+     /*shilingi200*/
+       .shilingi200{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi200:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi200{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi200*/
+
+     /*shilingi50*/
+       .shilingi50{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi50:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi50{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi50*/
+
+     /*shilingi500*/
+     .shilingi500{
+      transition: transform 0.3s ease-out;
+      position: relative;
+     }
+
+   .shilingi500:hover{
+      transform: scale(120%);
+     }
+
+   .text_shilingi500{
+      z-index: 999;
+      width: 500px;
+      background-color: gray;
+      display: none;
+      position: absolute;
+      text-align: justify;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      opacity: 80%;
+      font-family: monospace;
+      font-size: 20px;
+      color: rgb(197, 197, 197);
+    }
+  /*shilingi500*/
+
+  /*shilingi5000*/
+       .shilingi5000{
+         transition: transform 0.3s ease-out;
+         position: relative;
+        }
+
+      .shilingi5000:hover{
+         transform: scale(120%);
+        }
+
+      .text_shilingi5000{
+         z-index: 999;
+         width: 500px;
+         background-color: gray;
+         display: none;
+         position: absolute;
+         text-align: justify;
+         margin: 20px;
+         padding: 20px;
+         border-radius: 10px;
+         opacity: 80%;
+         font-family: monospace;
+         font-size: 20px;
+         color: rgb(197, 197, 197);
+       }
+     /*shilingi5000*/
 
 /*contents*/
 
