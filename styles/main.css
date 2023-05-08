@@ -1,7 +1,8 @@
 
 
 body{
-    height: fit-content;
+    display: block;
+    height:1000px;
 }
 
 .container{
